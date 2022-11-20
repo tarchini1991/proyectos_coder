@@ -1,0 +1,115 @@
+ /* Reseteamos la pagina */
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Centro el body y le agrego un color de fondo  */
+.fondoPagina{
+    background: rgb(0, 0, 0);
+    margin: auto auto;
+}
+
+
+/* Zona de encabezado */
+header
+{
+    margin-bottom: 150px;
+}
+/* Centro el logo y le agrego un color de fondo para que resalte mas */
+.logoCabecera{
+    background-color: rgba(240, 248, 255, 0.404);
+    margin-top: 75px;
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    display: inline-block;
+    padding-top: 7%;
+
+}
+/* Agrego una imagen en el header con efecto parallax */
+.imagenCabecera{
+    background-image: url(../assets/images/priscilla-du-preez-rhva4q_n8CQ-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+
+}
+
+.tituloCabecera{
+   
+    font-size: 96px;
+    color: white;
+}
+
+.subtituloCabecera{
+    font-size:  40px;
+    color: white;
+}
+/* Le saco los bullets y subrayado a los elementos de la lista desordenada */
+.menu{
+    list-style: none;
+}
+/* Pongo los elementos de la lista en forma de linea */
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size:  20px;
+    margin: 40px;
+}
+
+/* En la zona del main hago cards con anclas para que se pueda ir a las demas paginas */
+.contenedorCards{
+    width:fit-content;
+    margin: auto auto;
+}
+
+.cardMain{
+    width: 380px;
+    height: 380px;
+    margin-bottom: 150px;
+    border: 2px solid rgb(206, 150, 45);
+}
+
+.cardMain img{
+    width: 380px;
+    height: 150px;
+    padding: 2rem;
+}
+
+.cardMain h3{
+    text-align: center;
+    font-size: 36px;
+    color: white;
+}
+
+.cardMain p{
+    font-size: 32px;
+    color: white;
+}
+
+/* Zona de footer con efecto parallax */
+.piePagina{
+
+    background-image: url(../assets/images/priscilla-du-preez-rhva4q_n8CQ-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    height: 200px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.piePagina p{
+    font-size: 16px;
+    color: white;
+}
