@@ -5,31 +5,13 @@
     margin: 0;
 }
 
-/* Centro el body y le agrego un color de fondo  */
 .fondoPagina{
-    background: rgb(0, 0, 0);
-    margin: auto auto;
+    background-image: url(../assets/images/disco-vinilo-macro-foto-detalle-textura-disco-vinilo-patron-fondo_175175-626.jpg);
+    z-index: -1;
 }
 
-
-/* Zona de encabezado */
-header
-{
-    margin-bottom: 150px;
-}
-/* Centro el logo y le agrego un color de fondo para que resalte mas */
-.logoCabecera{
-    background-color: rgba(240, 248, 255, 0.404);
-    margin-top: 75px;
-    border-radius: 50%;
-    width: 450px;
-    height: 450px;
-    display: inline-block;
-    padding-top: 7%;
-
-}
 /* Agrego una imagen en el header con efecto parallax */
-.imagenCabecera{
+.imagenCabeceraMain{
     background-image: url(../assets/images/priscilla-du-preez-rhva4q_n8CQ-unsplash.jpg);
     background-repeat:no-repeat;
     background-size:cover;
@@ -38,76 +20,110 @@ header
     height: 20rem;
 }
 
+.imagenCabeceraContacto{
+    background-image: url(../assets/images/microphone-tips-shutterstock@1400x1050.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    height: 20rem;
+}
+
+.imagenCabeceraMusica{
+    background-image: url(../assets/images/beats\ vol.1-8.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    height: 20rem;
+}
+
+.imagenCabeceraSobreMi{
+    background-image: url(../assets/images/92bdda02-e16b-4d9c-ad4d-93eb6a5818fc.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    height: 20rem;
+}
+
+.imagenCabeceraTienda{
+    background-image: url(../assets/images/mg-hihatvol1-e1573741603288.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    height: 20rem;
+}
+
 .tituloCabecera{
-   
-    font-size: 96px;
+    font-size: 86px;
     color: white;
 }
 
 .subtituloCabecera{
-    font-size:  40px;
-    color: white;
-}
-/* Le saco los bullets y subrayado a los elementos de la lista desordenada */
-.menu{
-    list-style: none;
-}
-/* Pongo los elementos de la lista en forma de linea */
-.menu li{
-    display: inline-block;
-}
-
-.menu li a{
-    text-decoration: none;
-    color: aliceblue;
-    font-size:  20px;
-    margin: 40px;
-}
-
-/* En la zona del main hago cards con anclas para que se pueda ir a las demas paginas */
-.contenedorCards{
-    width:fit-content;
-    margin: auto auto;
-}
-
-.cardMain{
-    width: 380px;
-    height: 380px;
-    margin-bottom: 150px;
-    border: 2px solid rgb(206, 150, 45);
-}
-
-.cardMain img{
-    width: 380px;
-    height: 150px;
-    padding: 2rem;
-}
-
-.cardMain h3{
-    text-align: center;
-    font-size: 36px;
-    color: white;
-}
-
-.cardMain p{
-    font-size: 32px;
+    font-size:  30px;
     color: white;
 }
 
 /* Zona de footer con efecto parallax */
-.piePagina{
+.piePaginaMain{
 
     background-image: url(../assets/images/priscilla-du-preez-rhva4q_n8CQ-unsplash.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment:fixed;
     background-position: center;
-    height: 200px;
     text-align: center;
-    padding-top: 80px;
 }
 
-.piePagina p{
-    font-size: 16px;
-    color: white;
+.piePaginaContacto{
+
+    background-image: url(../assets/images/microphone-tips-shutterstock@1400x1050.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    text-align: center;
 }
+
+.piePaginaMusica{
+
+    background-image: url(../assets/images/beats\ vol.1-8.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    text-align: center;
+}
+
+.piePaginaSobreMi{
+
+    background-image: url(../assets/images/92bdda02-e16b-4d9c-ad4d-93eb6a5818fc.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    text-align: center;
+}
+
+.piePaginaTienda{
+
+    background-image: url(../assets/images/mg-hihatvol1-e1573741603288.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    text-align: center;
+}
+
+.efectoZoom {
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 1.5em;
+  }
+  .efectoZoom:hover {
+    transform: scale(1.1);
+  }

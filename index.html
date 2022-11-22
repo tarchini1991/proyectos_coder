@@ -6,99 +6,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BeNice</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 
 <body>
-    <header class="imagenCabecera">
-        <nav class="navbar navbar-expand-lg">
+    <header class="imagenCabeceraMain">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark bg-gradient" data-aos="fade-down">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="./assets/images/8ee39971c1a577f89055acf6d6dc06e7.jpg" alt="logoHome" width="80" height="80"></a>
+              <a class="navbar-brand efectoZoom " href="#"><img src="./assets/images/BeNiceLogo.png" alt="logoHome" width="80" height="80"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon "></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav justify-content-end w-100 ">
-                    <a class="nav-link fs-3 fw-bold m-3 " href="./pages/sobreMi.html">Be Nice</a>
-                    <a class="nav-link fs-3 fw-bold m-3 " href="./pages/tienda.html">TIENDA</a>
-                    <a class="nav-link fs-3 fw-bold m-3 " href="./pages/musica.html">MÚSICA</a>
-                    <a class="nav-link fs-3 fw-bold m-3 " href="./pages/contacto.html">CONTACTO</a>
+              <div class="collapse navbar-collapse navbar-light bg-dark bg-gradient" id="navbarNavAltMarkup">
+                <div class="navbar-nav justify-content-end w-100">
+                    <a class="nav-link fs-4 fw-bold m-3 text-white" href="./pages/sobreMi.html">Be Nice</a>
+                    <a class="nav-link fs-4 fw-bold m-3 text-white" href="./pages/tienda.html">TIENDA</a>
+                    <a class="nav-link fs-4 fw-bold m-3 text-white" href="./pages/musica.html">MÚSICA</a>
+                    <a class="nav-link fs-4 fw-bold m-3 text-white" href="./pages/contacto.html">CONTACTO</a>
                 </div>
               </div>
             </div>
         </nav>
-        <!-- <div class="logoCabecera">
+        <div class="container">
             <h1 class="tituloCabecera">BE NICE</h1>
             <h2 class="subtituloCabecera">Beatmaking,sampling, Boom Bap</h2>
-        </div> -->
+        </div>
     </header>
-    <main>
-        <!-- <div class="container">
-            <div class="row">
-                <div class="col ">
-                    <div class="card text-center" style="width: 20rem;">
-                        <img src="./assets/images/8ee39971c1a577f89055acf6d6dc06e7.jpg" alt="logoTienda">
-                        <div class="card-body">
-                          <h5 class="card-title">TIENDA</h5>
-                          <p class="card-text">Fusionate con el rap old school, con mi librería de sonidos.</p>
+
+
+    <main class="fondoPagina">
+        <div class="container">
+            <div class="row g-3">
+                    <a href="./pages/tienda.html" class="col-sm-12 col-lg-4 text-decoration-none mb-5 mt-5 " data-aos="fade-right">
+                            <div class="card efectoZoom h-100">
+                                <img src="./assets/images/tiendaImagen.jpg" class="card-img-top img-thumbnail" alt="logoTienda">
+                            <div class="card-body bg-dark bg-gradient">
+                                <h5 class="card-title text-white text-center text-decoration-underline">TIENDA</h5>
+                                <p class="card-text text-white">Fusionate con el rap old school, con mi librería de sonidos.</p>
+                            </div>
+                            </div>
+                    </a>
+                <a href="./pages/musica.html" class="col-sm-12 col-lg-4 text-decoration-none mb-5 mt-5" data-aos="fade-right">
+                        <div class="card efectoZoom h-100">
+                            <img src="./assets/images/musicaImagen.png" class="card-img-top img-thumbnail" alt="logoMusica">
+                        <div class="card-body bg-dark bg-gradient">
+                            <h5 class="card-title text-white text-center text-decoration-underline">MÚSICA</h5>
+                            <p class="card-text text-white">Escuchá mis últimos beats, producciones y colaboraciones.</p>
                         </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card text-center" style="width: 20rem;">
-                        <img src="assets/images/beats vol.1-8.png" alt="logoMusica">
-                        <div class="card-body">
-                          <h5 class="card-title">MÚSICA</h5>
-                          <p class="card-text">Escuchá mis últimos beats, producciones y colaboraciones.</p>
                         </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card text-center" style="width: 20rem;">
-                        <img src="assets/images/BeNiceLogo.png" alt="logoContacto">
-                        <div class="card-body">
-                          <h5 class="card-title">GRABA CONMIGO</h5>
-                          <p class="card-text">Trabajemos juntos y pasá al siguiente nivel.</p>
+                </a>
+                <a href="./pages/contacto.html" class="col-sm-12 col-lg-4 text-decoration-none mb-5 mt-5" data-aos="fade-right">
+                        <div class="card efectoZoom h-100">
+                            <img src="./assets/images/grabaConmigoImagen.jpg" class="card-img-top img-thumbnail" alt="logoContacto">
+                        <div class="card-body bg-dark bg-gradient">
+                            <h5 class="card-title text-white text-center text-decoration-underline">GRABA CONMIGO</h5>
+                            <p class="card-text text-white">Trabajemos juntos y pasá al siguiente nivel.</p>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <div class="card-group">
-            <div class="card">
-                <img src="./assets/images/8ee39971c1a577f89055acf6d6dc06e7.jpg" class="card-img-top" alt="logoTienda">
-              <div class="card-body">
-                <h5 class="card-title">TIENDA</h5>
-                <p class="card-text">Fusionate con el rap old school, con mi librería de sonidos.</p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="assets/images/beats vol.1-8.png" class="card-img-top" alt="logoMusica">
-              <div class="card-body">
-                <h5 class="card-title">MÚSICA</h5>
-                <p class="card-text">Escuchá mis últimos beats, producciones y colaboraciones.</p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="assets/images/BeNiceLogo.png" class="card-img-top" alt="logoContacto">
-              <div class="card-body">
-                <h5 class="card-title">GRABA CONMIGO</h5>
-                <p class="card-text">Trabajemos juntos y pasá al siguiente nivel.</p>
-              </div>
+                        </div>
+                </a>
             </div>
         </div>
     </main>
-    <footer class="piePagina">
-            <a href="https://www.instagram.com/be.nice1991/" target="_blank">Instagram</a>
-            <a href="https://www.facebook.com" class="iconoFace" target="_blank">Facebook</a>
-            <a href="https://www.YouTube.com" class="iconoYout" target="_blank">YouTube</a>
-            <a href="https://www.spotify.com" class="iconoSpo" target="_blank">Spotify</a>
-            <a href="https://www.gmail.com" class="iconoGmail" target="_blank">GMail</a>
-            <a href="https://web.whatsapp.com/" class="iconoWts" target="_blank">whatsapp</a>
-            <p>Todos los derechos reservados 2022 - Diseñado por Bruno</p>
+
+
+    <footer class="container-fluid piePaginaMain">
+            <a href="https://www.instagram.com/be.nice1991/" target="_blank"><i class="fa-brands fa-instagram text-white fs-4 ms-4"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook text-white fs-4 ms-4"></i></a>
+            <a href="https://www.YouTube.com" target="_blank"><i class="fa-brands fa-youtube text-white fs-4 ms-4"></i></a>
+            <a href="https://www.spotify.com" target="_blank"><i class="fa-brands fa-spotify text-white fs-4 ms-4"></i></a>
+            <a href="https://www.gmail.com" target="_blank"><i class="fa-brands fa-google text-white fs-4 ms-4"></i></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp text-white fs-4 ms-4"></i></a>
+            <p class="text-center text-white ">Todos los derechos reservados 2022 - Diseñado por Bruno</p>
     </footer>
 
+    <script src="https://kit.fontawesome.com/7717891e0e.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
