@@ -1,4 +1,4 @@
- /* Reseteamos la pagina */
+
 *{
     box-sizing:border-box;
     padding: 0;
@@ -7,10 +7,8 @@
 
 .fondoPagina{
     background-image: url(../assets/images/disco-vinilo-macro-foto-detalle-textura-disco-vinilo-patron-fondo_175175-626.jpg);
-    z-index: -1;
 }
 
-/* Agrego una imagen en el header con efecto parallax */
 .imagenCabeceraMain{
     background-image: url(../assets/images/priscilla-du-preez-rhva4q_n8CQ-unsplash.jpg);
     background-repeat:no-repeat;
@@ -127,3 +125,73 @@
   .efectoZoom:hover {
     transform: scale(1.1);
   }
+
+
+  .efectoZoomIconos {
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 1.5em;
+  }
+  .efectoZoomIconos:hover {
+    transform: scale(1.9);
+  }
+
+
+.snip1135 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.snip1135 * {
+  box-sizing: border-box;
+}
+.snip1135 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  padding: 0;
+}
+.snip1135 a {
+  padding: 0.5em 0;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.snip1135 a:before,
+.snip1135 a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1135 a:before {
+  bottom: 0;
+  display: block;
+  height: 3px;
+  width: 0%;
+  content: "";
+  background-color: #fffffc;
+}
+.snip1135 a:after {
+  left: 0;
+  top: 0;
+  padding: 0.5em 0;
+  position: absolute;
+  content: attr(data-hover);
+  color: #ffffff;
+  white-space: nowrap;
+  max-width: 0%;
+  overflow: hidden;
+}
+.snip1135 a:hover:before,
+.snip1135 .current a:before {
+  opacity: 1;
+  width: 100%;
+}
+.snip1135 a:hover:after,
+.snip1135 .current a:after {
+  max-width: 100%;
+}
+
