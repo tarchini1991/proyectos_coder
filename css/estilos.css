@@ -7,6 +7,7 @@
 
 .fondoPagina{
     background-image: url(../assets/images/disco-vinilo-macro-foto-detalle-textura-disco-vinilo-patron-fondo_175175-626.jpg);
+    z-index: -1;
 }
 
 .imagenCabeceraMain{
@@ -64,7 +65,6 @@
     color: white;
 }
 
-/* Zona de footer con efecto parallax */
 .piePaginaMain{
 
     background-image: url(../assets/images/priscilla-du-preez-rhva4q_n8CQ-unsplash.jpg);
