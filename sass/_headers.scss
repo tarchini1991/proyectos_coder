@@ -1,0 +1,30 @@
+
+.imagenCabeceraMain{
+    @include mixinParallaxHeader(url(../assets/images/priscilla-du-preez-rhva4q_n8CQ-unsplash.jpg));
+}
+
+.imagenCabeceraContacto{
+    @include mixinParallaxHeader(url(../assets/images/microphone-tips-shutterstock@1400x1050.jpg));
+}
+
+.imagenCabeceraMusica{
+    @include mixinParallaxHeader(url(../assets/images/beatsvol.1-8.png));;
+}
+
+.imagenCabeceraSobreMi{
+    @include mixinParallaxHeader(url(../assets/images/92bdda02-e16b-4d9c-ad4d-93eb6a5818fc.jpg));
+}
+
+.imagenCabeceraTienda{
+    @include mixinParallaxHeader(url(../assets/images/mg-hihatvol1-e1573741603288.jpg));
+}
+
+.tituloCabecera{
+    font-size: map-get($texto-cabecera, sizeTitulo);
+    color: $color-titulos;
+}
+
+.subtituloCabecera{
+    font-size: map-get($texto-cabecera, sizeSubtitulo);
+    color: $color-titulos;
+}

@@ -1,0 +1,18 @@
+
+@mixin mixinParallaxHeader($imagen){
+    background-image:$imagen;
+    background-repeat:$no-repet;
+    background-size:$b-cover;
+    background-attachment:$b-attach;
+    background-position: $centrado;
+    height: $altura-header;
+}
+
+@mixin mixinParallaxFooter($imagen){
+    background-image:$imagen;
+    background-repeat:$no-repet;
+    background-size:$b-cover;
+    background-attachment:$b-attach;
+    background-position: $centrado;
+    text-align: $centrado;
+}

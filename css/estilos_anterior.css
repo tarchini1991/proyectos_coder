@@ -1,0 +1,197 @@
+
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.fondoPagina{
+    background-image: url(../assets/images/disco-vinilo-macro-foto-detalle-textura-disco-vinilo-patron-fondo_175175-626.jpg);
+    z-index: -1;
+}
+
+.imagenCabeceraMain{
+    background-image: url(../assets/images/priscilla-du-preez-rhva4q_n8CQ-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    height: 20rem;
+}
+
+.imagenCabeceraContacto{
+    background-image: url(../assets/images/microphone-tips-shutterstock@1400x1050.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    height: 20rem;
+}
+
+.imagenCabeceraMusica{
+    background-image: url(../assets/images/beats\ vol.1-8.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    height: 20rem;
+}
+
+.imagenCabeceraSobreMi{
+    background-image: url(../assets/images/92bdda02-e16b-4d9c-ad4d-93eb6a5818fc.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    height: 20rem;
+}
+
+.imagenCabeceraTienda{
+    background-image: url(../assets/images/mg-hihatvol1-e1573741603288.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    height: 20rem;
+}
+
+.tituloCabecera{
+    font-size: 86px;
+    color: white;
+}
+
+.subtituloCabecera{
+    font-size:  30px;
+    color: white;
+}
+
+.piePaginaMain{
+
+    background-image: url(../assets/images/priscilla-du-preez-rhva4q_n8CQ-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    text-align: center;
+}
+
+.piePaginaContacto{
+
+    background-image: url(../assets/images/microphone-tips-shutterstock@1400x1050.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    text-align: center;
+}
+
+.piePaginaMusica{
+
+    background-image: url(../assets/images/beats\ vol.1-8.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    text-align: center;
+}
+
+.piePaginaSobreMi{
+
+    background-image: url(../assets/images/92bdda02-e16b-4d9c-ad4d-93eb6a5818fc.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    text-align: center;
+}
+
+.piePaginaTienda{
+
+    background-image: url(../assets/images/mg-hihatvol1-e1573741603288.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    text-align: center;
+}
+
+.efectoZoom {
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 1.5em;
+  }
+  .efectoZoom:hover {
+    transform: scale(1.1);
+  }
+
+
+  .efectoZoomIconos {
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 1.5em;
+  }
+  .efectoZoomIconos:hover {
+    transform: scale(1.9);
+  }
+
+
+.snip1135 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.snip1135 * {
+  box-sizing: border-box;
+}
+.snip1135 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  padding: 0;
+}
+.snip1135 a {
+  padding: 0.5em 0;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.snip1135 a:before,
+.snip1135 a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1135 a:before {
+  bottom: 0;
+  display: block;
+  height: 3px;
+  width: 0%;
+  content: "";
+  background-color: #fffffc;
+}
+.snip1135 a:after {
+  left: 0;
+  top: 0;
+  padding: 0.5em 0;
+  position: absolute;
+  content: attr(data-hover);
+  color: #ffffff;
+  white-space: nowrap;
+  max-width: 0%;
+  overflow: hidden;
+}
+.snip1135 a:hover:before,
+.snip1135 .current a:before {
+  opacity: 1;
+  width: 100%;
+}
+.snip1135 a:hover:after,
+.snip1135 .current a:after {
+  max-width: 100%;
+}
+

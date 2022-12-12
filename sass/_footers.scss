@@ -1,0 +1,20 @@
+
+.piePaginaMain{
+    @include mixinParallaxFooter(url(../assets/images/priscilla-du-preez-rhva4q_n8CQ-unsplash.jpg));
+}
+
+.piePaginaContacto{
+    @include mixinParallaxFooter(url(../assets/images/microphone-tips-shutterstock@1400x1050.jpg));
+}
+
+.piePaginaMusica{
+    @include mixinParallaxFooter(url(../assets/images/beatsvol.1-8.png));
+}
+
+.piePaginaSobreMi{
+    @include mixinParallaxFooter(url(../assets/images/92bdda02-e16b-4d9c-ad4d-93eb6a5818fc.jpg));
+}
+
+.piePaginaTienda{
+    @include mixinParallaxFooter(url(../assets/images/mg-hihatvol1-e1573741603288.jpg));
+}
